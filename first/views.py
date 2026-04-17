@@ -7,3 +7,6 @@ def index(request):
 
 def enock(request):
     return HttpResponse("enock")
+
+def name(request,names):
+    return HttpResponse(f"hello {names}")
